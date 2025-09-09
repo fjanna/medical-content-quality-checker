@@ -16,9 +16,9 @@ cd medical-content-quality-checker
 python -m venv .venv
 source .venv/bin/activate  # Windows PowerShell: .venv\Scripts\Activate.ps1` 
 pip install -r requirements.txt
-2) (Optional) Enable LLM
+	2) (Optional) Enable LLM
 export OPENAI_API_KEY="**sk-替换成你自己的Key**"
 # Optional model override (默认 gpt-4o-mini)
 export OPENAI_MODEL="gpt-4o-mini"
-3) Run
+	3) Run
 streamlit run app.py
