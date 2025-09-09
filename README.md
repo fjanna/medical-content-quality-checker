@@ -56,8 +56,6 @@ setx OPENAI_MODEL "gpt-4o-mini"
 streamlit run app.py
 ```
 
-运行后，终端会显示本地地址（默认 [http://localhost:8501），复制到浏览器即可访问。](http://localhost:8501），复制到浏览器即可访问。)
-
 ---
 
 ## 功能说明
